@@ -143,7 +143,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250515110713">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250519090750">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -181,15 +181,15 @@ layout-indicator
     <div class="header-top">
         <div id="logo" class="logo-header">
             <a id="logo-link" href="https://eu.eustat.eus/indice.html">
-                <img src="/site/assets/img/LogoEustat.png" alt="eustat">
+                <img src="/assets/img/LogoEustat.png" alt="eustat">
             </a>
             <div class="logo-header-description">
                 Euskal Estatistika Erakundea<br>Instituto Vasco de Estadística
             </div>
         </div>
         <div id="trigger_home" class="menu-button">
-            <img id="euskadieus-logo"src="/site/assets/img/logo-euskadi-eus.png" alt="eustat">
-            <img id="menu-button-img" src="/site/assets/img/ham.png" alt="Mostrar/ocultar menu principal">
+            <img id="euskadieus-logo"src="/assets/img/logo-euskadi-eus.png" alt="eustat">
+            <img id="menu-button-img" src="/assets/img/ham.png" alt="Mostrar/ocultar menu principal">
         </div>
     </div>
     <div class="zutabeak">
@@ -216,24 +216,24 @@ layout-indicator
                   Jarraiguzu:
                 </span>
                 <div class="iconos-rrss">
-                    <a href="https://es.linkedin.com/company/eustat" target="_blank" title="LinkedIn" alt="LinkedIn"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/linkedin.gif"></a>
-                    <a href="http://www.facebook.com/eustat" target="_blank" title="Facebook" alt="Facebook"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/facebook.gif"></a>
-                    <a href="http://twitter.com/eustat" target="_blank" title="X" alt="X"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/X.gif"></a>
-                    <a href="https://bsky.app/profile/eustat.eus" target="_blank" title="BlueSky" alt="BlueSky"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/BlueSky.png"></a>
-                    <a href="https://www.youtube.com/user/eustat1986/" target="_blank" title="Youtube" alt="Youtube"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/youtube.png"></a>
+                    <a href="https://es.linkedin.com/company/eustat" target="_blank" title="LinkedIn"
+                        style="display:inline-block;"><img class="sociales" alt="LinkedIn"
+                            src="/assets/img/rrss/linkedin.gif"></a>
+                    <a href="http://www.facebook.com/eustat" target="_blank" title="Facebook"
+                        style="display:inline-block;"><img class="sociales" alt="Facebook"
+                            src="/assets/img/rrss/facebook.gif"></a>
+                    <a href="http://twitter.com/eustat" target="_blank" title="X"
+                        style="display:inline-block;"><img class="sociales" alt="X"
+                            src="/assets/img/rrss/X.gif"></a>
+                    <a href="https://bsky.app/profile/eustat.eus" target="_blank" title="BlueSky"
+                        style="display:inline-block;"><img class="sociales" alt="BlueSky"
+                            src="/assets/img/rrss/BlueSky.png"></a>
+                    <a href="https://www.youtube.com/user/eustat1986/" target="_blank" title="Youtube"
+                        style="display:inline-block;"><img class="sociales" alt="Youtube"
+                            src="/assets/img/rrss/youtube.png"></a>
                     <a href="https://eu.eustat.eus/web/comun/extractorclobRSS.ashx?id=/rss/novedades_c.xml"
-                        target="_blank" title="Rss novedades" alt="Rss novedades" style="display:inline-block;"><img
-                            class="sociales" src="/site/assets/img/rrss/rss2.png"></a>
+                        target="_blank" title="Rss novedades" style="display:inline-block;"><img
+                            class="sociales" alt="Rss novedades" src="/assets/img/rrss/rss2.png"></a>
                 </div>
             </div>
         </div>
@@ -254,10 +254,10 @@ document.addEventListener('DOMContentLoaded', function () {
             zutabeak.classList.toggle('active');
             if (container.classList.contains('active')) {
                 
-                document.getElementById('menu-button-img').src = "/site/assets/img/aspa.png";
+                document.getElementById('menu-button-img').src = "/assets/img/aspa.png";
                
             } else {
-                document.getElementById('menu-button-img').src = "/site/assets/img/ham.png";
+                document.getElementById('menu-button-img').src = "/assets/img/ham.png";
                 
             }
         });
@@ -296,11 +296,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     Datu desagregatuak
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown-menu-desagregaciones"><li class=" ">
-    <a class="dropdown-item" href="/territorio/">Lurralde historikoa</a>
+    <a class="dropdown-item" href="/lurraldea/">Lurralde historikoa</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/municipal/">Udalerria</a>
+    <a class="dropdown-item" href="/udalerria/">Udalerria</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/sexo/">sexua</a>
+    <a class="dropdown-item" href="/sexua/">sexua</a>
 </li></ul>
             </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-masinfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Informazio gehiago
@@ -308,9 +308,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 <ul class="dropdown-menu" aria-labelledby="dropdown-menu-masinfo"><li class=" ">
     <a class="dropdown-item" href="/agenda2030/">2030 Agenda</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/informacion-disponible-sobre-los-indicadores/">Adierazleei buruzko informazio eskuragarria</a>
+    <a class="dropdown-item" href="/aurkezpena/">Adierazleei buruzko informazio eskuragarria</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/acerca-de-la-plataforma-web/">Web plataformari buruz</a>
+    <a class="dropdown-item" href="/plataforma/">Web plataformari buruz</a>
 </li></ul>
             </li></ul>
     
@@ -337,9 +337,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
   <div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-eu list-inline-item">
+            <span class="language-toggle-active-language">
+                EU
+            </span>
+        </li><li class="language-option-es list-inline-item">
             <a class="language-toggle-link" href="/es/1-4-2/">
                 ES
+            </a>
+        </li><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/en/1-4-2/">
+                EN
             </a>
         </li></ul>
 </div>
@@ -347,9 +355,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-eu list-inline-item">
+            <span class="language-toggle-active-language">
+                EU
+            </span>
+        </li><li class="language-option-es list-inline-item">
             <a class="language-toggle-link" href="/es/1-4-2/">
                 ES
+            </a>
+        </li><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/en/1-4-2/">
+                EN
             </a>
         </li></ul>
 </div></span><a title="" aria-label=""
@@ -458,71 +474,71 @@ data-event-label="high"
 <div class="ods-navigation d-flex justify-content-center">
     
         <a href="/1/" class="ods-item  ods-selected ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/1.png" alt="Helburua 1 - Pobreziaren amaiera" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/1.png" alt="Helburua 1 - Pobreziaren amaiera" class="goal-icon-image"/>
         </a>
     
         <a href="/2/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/2.png" alt="Helburua 2 - Goserik ez" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/2.png" alt="Helburua 2 - Goserik ez" class="goal-icon-image"/>
         </a>
     
         <a href="/3/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/3.png" alt="Helburua 3 - Osasuna eta ongizatea" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/3.png" alt="Helburua 3 - Osasuna eta ongizatea" class="goal-icon-image"/>
         </a>
     
         <a href="/4/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/4.png" alt="Helburua 4 - Kalitatezko hezkuntza" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/4.png" alt="Helburua 4 - Kalitatezko hezkuntza" class="goal-icon-image"/>
         </a>
     
         <a href="/5/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/5.png" alt="Helburua 5 - Genero berdintasuna" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/5.png" alt="Helburua 5 - Genero berdintasuna" class="goal-icon-image"/>
         </a>
     
         <a href="/6/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/6.png" alt="Helburua 6 - Ur garbia eta saneamendua" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/6.png" alt="Helburua 6 - Ur garbia eta saneamendua" class="goal-icon-image"/>
         </a>
     
         <a href="/7/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/7.png" alt="Helburua 7 - Energia eskuragarria eta garbia" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/7.png" alt="Helburua 7 - Energia eskuragarria eta garbia" class="goal-icon-image"/>
         </a>
     
         <a href="/8/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/8.png" alt="Helburua 8 - Lan duina eta hazkunde ekonomikoa" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/8.png" alt="Helburua 8 - Lan duina eta hazkunde ekonomikoa" class="goal-icon-image"/>
         </a>
     
         <a href="/9/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/9.png" alt="Helburua 9 - Industria, berrikuntza eta azpiegiturak" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/9.png" alt="Helburua 9 - Industria, berrikuntza eta azpiegiturak" class="goal-icon-image"/>
         </a>
     
         <a href="/10/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/10.png" alt="Helburua 10 - Desberdintasunak murriztea" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/10.png" alt="Helburua 10 - Desberdintasunak murriztea" class="goal-icon-image"/>
         </a>
     
         <a href="/11/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/11.png" alt="Helburua 11 - Hiri eta komunitate jasangarriak" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/11.png" alt="Helburua 11 - Hiri eta komunitate jasangarriak" class="goal-icon-image"/>
         </a>
     
         <a href="/12/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/12.png" alt="Helburua 12 - Ekoizpen eta kontsumo arduratsuak" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/12.png" alt="Helburua 12 - Ekoizpen eta kontsumo arduratsuak" class="goal-icon-image"/>
         </a>
     
         <a href="/13/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/13.png" alt="Helburua 13 - Klimaren aldeko ekintza" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/13.png" alt="Helburua 13 - Klimaren aldeko ekintza" class="goal-icon-image"/>
         </a>
     
         <a href="/14/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/14.png" alt="Helburua 14 - Itsaspeko bizitza" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/14.png" alt="Helburua 14 - Itsaspeko bizitza" class="goal-icon-image"/>
         </a>
     
         <a href="/15/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/15.png" alt="Helburua 15 - Lehorreko ekosistemetako bizitza" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/15.png" alt="Helburua 15 - Lehorreko ekosistemetako bizitza" class="goal-icon-image"/>
         </a>
     
         <a href="/16/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/16.png" alt="Helburua 16 - Bakea, justizia eta instituzio sendoak" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/16.png" alt="Helburua 16 - Bakea, justizia eta instituzio sendoak" class="goal-icon-image"/>
         </a>
     
         <a href="/17/" class="ods-item ">
-            <img src="https://eustat-des.github.io/site/assets/img/goals/eu/17.png" alt="Helburua 17 - Helburuak lortzeko aliantzak" class="goal-icon-image"/>
+            <img src="https://eustat.github.io/assets/img/goals/eu/17.png" alt="Helburua 17 - Helburuak lortzeko aliantzak" class="goal-icon-image"/>
         </a>
     
 </div>
@@ -537,7 +553,7 @@ data-event-label="high"
             
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
                 <a href="/1/" aria-label="Ikusi Helburuaren helmugak eta adierazleak 1" title="Ikusi Helburuaren helmugak eta adierazleak 1">
-                    <img src="https://eustat-des.github.io/site/assets/img/goals/eu/1.png"
+                    <img src="https://eustat.github.io/assets/img/goals/eu/1.png"
                         alt="Pobreziaren amaiera - Helburua 1"
                         id="goal-1"
                         class="goal-icon-image goal-icon-image-" />
@@ -1166,7 +1182,7 @@ ga('send', 'pageview');
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Bilatu';</script>
 
-<script src='/assets/js/sdg.js?v=20250515110713'></script>
+<script src='/assets/js/sdg.js?v=20250519090750'></script>
 
 
 <script>
@@ -1186,7 +1202,7 @@ ga('send', 'pageview');
 
     
     
-    <script src="/assets/js/custom.js?v=20250515110713"></script><script>
+    <script src="/assets/js/custom.js?v=20250519090750"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

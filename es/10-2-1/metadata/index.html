@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250515110713">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250519090750">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -178,15 +178,15 @@ layout-config-builder
     <div class="header-top">
         <div id="logo" class="logo-header">
             <a id="logo-link" href="https://es.eustat.eus/indice.html">
-                <img src="/site/assets/img/LogoEustat.png" alt="eustat">
+                <img src="/assets/img/LogoEustat.png" alt="eustat">
             </a>
             <div class="logo-header-description">
                 Euskal Estatistika Erakundea<br>Instituto Vasco de Estadística
             </div>
         </div>
         <div id="trigger_home" class="menu-button">
-            <img id="euskadieus-logo"src="/site/assets/img/logo-euskadi-eus.png" alt="eustat">
-            <img id="menu-button-img" src="/site/assets/img/ham.png" alt="Mostrar/ocultar menu principal">
+            <img id="euskadieus-logo"src="/assets/img/logo-euskadi-eus.png" alt="eustat">
+            <img id="menu-button-img" src="/assets/img/ham.png" alt="Mostrar/ocultar menu principal">
         </div>
     </div>
     <div class="zutabeak">
@@ -213,24 +213,24 @@ layout-config-builder
                   Síganos:
                 </span>
                 <div class="iconos-rrss">
-                    <a href="https://es.linkedin.com/company/eustat" target="_blank" title="LinkedIn" alt="LinkedIn"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/linkedin.gif"></a>
-                    <a href="http://www.facebook.com/eustat" target="_blank" title="Facebook" alt="Facebook"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/facebook.gif"></a>
-                    <a href="http://twitter.com/eustat" target="_blank" title="X" alt="X"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/X.gif"></a>
-                    <a href="https://bsky.app/profile/eustat.eus" target="_blank" title="BlueSky" alt="BlueSky"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/BlueSky.png"></a>
-                    <a href="https://www.youtube.com/user/eustat1986/" target="_blank" title="Youtube" alt="Youtube"
-                        style="display:inline-block;"><img class="sociales"
-                            src="/site/assets/img/rrss/youtube.png"></a>
+                    <a href="https://es.linkedin.com/company/eustat" target="_blank" title="LinkedIn"
+                        style="display:inline-block;"><img class="sociales" alt="LinkedIn"
+                            src="/assets/img/rrss/linkedin.gif"></a>
+                    <a href="http://www.facebook.com/eustat" target="_blank" title="Facebook"
+                        style="display:inline-block;"><img class="sociales" alt="Facebook"
+                            src="/assets/img/rrss/facebook.gif"></a>
+                    <a href="http://twitter.com/eustat" target="_blank" title="X"
+                        style="display:inline-block;"><img class="sociales" alt="X"
+                            src="/assets/img/rrss/X.gif"></a>
+                    <a href="https://bsky.app/profile/eustat.eus" target="_blank" title="BlueSky"
+                        style="display:inline-block;"><img class="sociales" alt="BlueSky"
+                            src="/assets/img/rrss/BlueSky.png"></a>
+                    <a href="https://www.youtube.com/user/eustat1986/" target="_blank" title="Youtube"
+                        style="display:inline-block;"><img class="sociales" alt="Youtube"
+                            src="/assets/img/rrss/youtube.png"></a>
                     <a href="https://es.eustat.eus/web/comun/extractorclobRSS.ashx?id=/rss/novedades_c.xml"
-                        target="_blank" title="Rss novedades" alt="Rss novedades" style="display:inline-block;"><img
-                            class="sociales" src="/site/assets/img/rrss/rss2.png"></a>
+                        target="_blank" title="Rss novedades" style="display:inline-block;"><img
+                            class="sociales" alt="Rss novedades" src="/assets/img/rrss/rss2.png"></a>
                 </div>
             </div>
         </div>
@@ -251,10 +251,10 @@ document.addEventListener('DOMContentLoaded', function () {
             zutabeak.classList.toggle('active');
             if (container.classList.contains('active')) {
                 
-                document.getElementById('menu-button-img').src = "/site/assets/img/aspa.png";
+                document.getElementById('menu-button-img').src = "/assets/img/aspa.png";
                
             } else {
-                document.getElementById('menu-button-img').src = "/site/assets/img/ham.png";
+                document.getElementById('menu-button-img').src = "/assets/img/ham.png";
                 
             }
         });
@@ -293,11 +293,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     Datos desagregados
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown-menu-desagregaciones"><li class=" ">
-    <a class="dropdown-item" href="/es/territorio/">Territorio histórico</a>
+    <a class="dropdown-item" href="/es/lurraldea/">Territorio histórico</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/es/municipal/">Municipio</a>
+    <a class="dropdown-item" href="/es/udalerria/">Municipio</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/es/sexo/">Sexo</a>
+    <a class="dropdown-item" href="/es/sexua/">Sexo</a>
 </li></ul>
             </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-masinfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Más información
@@ -305,9 +305,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 <ul class="dropdown-menu" aria-labelledby="dropdown-menu-masinfo"><li class=" ">
     <a class="dropdown-item" href="/es/agenda2030/">Agenda 2030</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/es/informacion-disponible-sobre-los-indicadores/">Información disponible sobre los indicadores</a>
+    <a class="dropdown-item" href="/es/aurkezpena/">Información disponible sobre los indicadores</a>
 </li><li class=" ">
-    <a class="dropdown-item" href="/es/acerca-de-la-plataforma-web/">Web plataformari buruz</a>
+    <a class="dropdown-item" href="/es/plataforma/">Web plataformari buruz</a>
 </li></ul>
             </li></ul>
     
@@ -338,6 +338,14 @@ document.addEventListener('DOMContentLoaded', function () {
             <a class="language-toggle-link" href="/10-2-1/metadata/">
                 EU
             </a>
+        </li><li class="language-option-es list-inline-item">
+            <span class="language-toggle-active-language">
+                ES
+            </span>
+        </li><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/en/10-2-1/metadata/">
+                EN
+            </a>
         </li></ul>
 </div>
 
@@ -347,6 +355,14 @@ document.addEventListener('DOMContentLoaded', function () {
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-eu list-inline-item">
             <a class="language-toggle-link" href="/10-2-1/metadata/">
                 EU
+            </a>
+        </li><li class="language-option-es list-inline-item">
+            <span class="language-toggle-active-language">
+                ES
+            </span>
+        </li><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/en/10-2-1/metadata/">
+                EN
             </a>
         </li></ul>
 </div></span><a title="Habilitar alto contraste" aria-label="Habilitar alto contraste"
@@ -998,7 +1014,7 @@ ga('send', 'pageview');
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20250515110713'></script>
+<script src='/assets/js/sdg.js?v=20250519090750'></script>
 
 
 <script>
@@ -1018,7 +1034,7 @@ ga('send', 'pageview');
 
     
     
-    <script src="/assets/js/custom.js?v=20250515110713"></script><script>
+    <script src="/assets/js/custom.js?v=20250519090750"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
