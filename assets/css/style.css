@@ -2814,15 +2814,26 @@ body {
   background: white;
   padding-top: 0;
   margin: 0;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.42857143; }
 
 /* Regla para alto contraste */
 body.contrast-high .header {
   background-color: #000000; }
 
-header.container {
+#logo-link {
+  background-color: transparent !important;
+  box-shadow: none !important; }
+
+header .container {
   margin-top: 15px; }
+
+.main-content-pages {
+  padding: 0px 10vw 50px !important;
+  text-align: justify; }
+
+.frontpage-goals-grid {
+  margin: 0px 0 20px 0; }
 
 .header {
   background-color: #013161; }
@@ -2889,7 +2900,7 @@ header.container {
   padding: 5px 20px 5px 5px;
   font-size: 14px; }
 
-@media (max-width: 420px) {
+@media (max-width: 560px) {
   .header .logo-header-description {
     display: none; } }
 @media (max-width: 770px) {
@@ -3199,6 +3210,10 @@ ul.iconillo {
   .ods-item {
     flex: 1;
     /* Asegura que los íconos ocupen todo el ancho disponible */
+    max-width: 6%;
+    /* Aproximadamente 20 íconos por línea en pantallas grandes */ } }
+@media only screen and (min-width: 1400px) {
+  .ods-item {
     max-width: 5%;
     /* Aproximadamente 20 íconos por línea en pantallas grandes */ } }
 @media only screen and (max-width: 768px) {
