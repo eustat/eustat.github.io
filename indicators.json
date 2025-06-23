@@ -31,7 +31,7 @@
         },
         {
           "id": "1-3-1",
-          "title": "Babes sozialeko sistema baten edo gutxieneko maila baten estaldura duen biztanleriaren proportzioa, sexuaren arabera banatuta, eta honako hauek bereiziz: haurrak, langabetuak, adinekoak, desgaitasunen bat duten pertsonak, haurdun dauden emakumeak, jaioberriak, lan-istripuen biktimak, pobreak eta kalteberak",
+          "title": "Gizarte-babeseko sistema baten edo gutxieneko maila baten estaldura duen biztanleriaren proportzioa, sexuaren arabera banatuta, eta honako hauek bereiziz: haurrak, langabetuak, adinekoak, desgaitasunen bat duten pertsonak, haurdun dauden emakumeak, jaioberriak, lan-istripuen biktimak, pobreak eta kalteberak",
           "description": "",
           "keywords": "",
           "href": "/1-3-1/",
@@ -155,14 +155,6 @@
           "description": "",
           "keywords": "",
           "href": "/2-2-3/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-2-4",
-          "title": "Prevalence of minimum dietary diversity, by population group (children aged 6 to 23.9 months and non-pregnant women aged 15 to 49 years)",
-          "description": "",
-          "keywords": "",
-          "href": "/2-2-4/",
           "status": "notstarted"
         },
         {
@@ -303,7 +295,7 @@
         },
         {
           "id": "3-3-1",
-          "title": "GIBak eragindako infekzio berrien kopurua infektatu gabeko 1.000 biztanleko, sexuaren, adinaren eta funtsezko herrien arabera banakatuta",
+          "title": "GIBak eragindako infekzio berrien kopurua infektatu gabeko 1.000 biztanleko, sexuaren, adinaren eta funtsezko populazioaren arabera banakatuta",
           "description": "",
           "keywords": "",
           "href": "/3-3-1/",
@@ -1006,14 +998,6 @@
           "status": "complete"
         },
         {
-          "id": "8-9-2",
-          "title": "Employed persons in the tourism industries",
-          "description": "",
-          "keywords": "",
-          "href": "/8-9-2/",
-          "status": "notstarted"
-        },
-        {
           "id": "8-10-1",
           "title": "a) Banku komertzialen sukurtsalen kopurua 100.000 heldu bakoitzeko, eta b) kutxazain automatikoen kopurua 100.000 heldu bakoitzeko",
           "description": "",
@@ -1251,7 +1235,7 @@
           "description": "",
           "keywords": "",
           "href": "/10-7-4/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-a-1",
@@ -1799,7 +1783,7 @@
         },
         {
           "id": "15-c-1",
-          "title": "Ezkutuko ehizatik edo legez kanpoko trafikotik merkaturatutako basa-flora eta -faunaren espezieen proportzioa",
+          "title": "Ezkutuko ehizatik edo legez kanpoko trafikotik merkaturatutako basa-flora eta -faunaren espezimenen proportzioa",
           "description": "",
           "keywords": "",
           "href": "/15-c-1/",
@@ -1823,7 +1807,7 @@
         },
         {
           "id": "16-1-2",
-          "title": "100.000 biztanleko gatazkekin lotutako heriotzak, sexuaren, adinaren eta kausaren arabera banakatuta",
+          "title": "Gatazkekin lotutako heriotzak, sexuaren, adinaren eta kausaren arabera banakatuta, 100.000 biztanleko",
           "description": "",
           "keywords": "",
           "href": "/16-1-2/",
@@ -1863,7 +1847,7 @@
         },
         {
           "id": "16-2-2",
-          "title": "Pertsonen salerosketaren biktimen kopurua 100.000 biztanleko, sexuaren, adinaren eta ustiapen-motaren arabera banakatuta",
+          "title": "Pertsonen salerosketaren biktimen kopurua 100.000 biztanleko, sexuaren, adinaren eta esplotazio motaren arabera banakatuta",
           "description": "",
           "keywords": "",
           "href": "/16-2-2/",
@@ -1959,7 +1943,7 @@
         },
         {
           "id": "16-7-2",
-          "title": "Erabakiak hartzea inklusiboa dela eta bere beharrei erantzuten diela uste duen biztanleriaren proportzioa, sexuaren, adinaren, desgaitasunaren eta biztanleria-taldearen arabera banakatuta",
+          "title": "Erabakiak hartzeko prozesuak inklusiboak direla eta bere beharrei erantzuten diela uste duen biztanleriaren proportzioa, sexuaren, adinaren, desgaitasunaren eta biztanleria-taldearen arabera banakatuta",
           "description": "",
           "keywords": "",
           "href": "/16-7-2/",
@@ -2223,7 +2207,7 @@
         
         {
           "id": "OCECA-1-2-1-1A",
-          "title": "Pobrezia erlatiboan egoteko arriskuan dauden pertsonen ehunekoa, estatu mailako pobrezia-muga kontuan hartuta",
+          "title": "Pobrezia erlatiboan egoteko arriskuan dauden pertsonen ehunekoa, estatu mailako atalasea kontuan hartuta",
           "description": "",
           "keywords": "",
           "href": "/OCECA-1-2-1-1A/",
@@ -2231,7 +2215,7 @@
         },
         {
           "id": "OCECA-1-2-1-2A",
-          "title": "Pobrezia erlatiboan egoteko arriskuan dauden pertsonen ehunekoa, alokairua imputatuta, estatu mailako pobrezia-muga kontuan hartuta",
+          "title": "Pobrezia erlatiboan egoteko arriskuan dauden pertsonen ehunekoa, alokairua inputatuta, estatu mailako atalasea kontuan hartuta",
           "description": "",
           "keywords": "",
           "href": "/OCECA-1-2-1-2A/",
@@ -2239,7 +2223,7 @@
         },
         {
           "id": "OCECA-1-2-1-2B",
-          "title": "Pobrezia erlatiboan egoteko arriskuan dauden pertsonen ehunekoa, alokairua imputatuta, erkidego mailako pobrezia-muga erabilita",
+          "title": "Pobrezia erlatiboan egoteko arriskuan dauden pertsonen ehunekoa, alokairua inputatuta, erkidego mailako atalasea erabilita",
           "description": "",
           "keywords": "",
           "href": "/OCECA-1-2-1-2B/",
@@ -2247,7 +2231,7 @@
         },
         {
           "id": "OCECA-1-2-2-1A",
-          "title": "Pobreziako edo gizarte-bazterketako arriskuan dauden pertsonen proportzioa: AROPE adierazlea, estatu mailako pobrezia-muga kontuan hartuta",
+          "title": "Pobreziako edo gizarte-bazterketako arriskuan dauden pertsonen proportzioa: AROPE adierazlea, estatu mailako atalasea kontuan hartuta",
           "description": "",
           "keywords": "",
           "href": "/OCECA-1-2-2-1A/",
