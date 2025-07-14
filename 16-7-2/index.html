@@ -143,7 +143,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250714091435">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250714112919">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -158,8 +158,6 @@ var translations = {
   window.dataLayer = window.dataLayer || [];
 
   // --- Dimensiones Personalizadas ---
-
-  // 1. Hizkuntza (Idioma):
   var pageLanguage = 'eu'.toUpperCase();
   if (pageLanguage == 'EU') {
         pageLanguage = 'E'; // Euskera
@@ -169,26 +167,17 @@ var translations = {
         pageLanguage = 'I'; // Inglés
     } 
 
-  // 2. Gaia (Tema/Tipo de Contenido):
   var pageTopic = 'N/A';
   
 
-  // 3. Eragiketa kodea (Código de Operación/ID):
-  var pageOperationCode = '099901';
-  
-  // 4. Dokumentu mota (Tipo de Documento):
-  var pageDocumentType = 'INDICADOR';
-
-  // 5. Formatua (Formato):
-  var pageFormat = 'ASP';
-
-  // --- Empujamos los datos al dataLayer ---
   window.dataLayer.push({
+    'pageCategory': 'signup',
+    'visitorType': 'high-value',
     'dimension1': pageLanguage,
     'dimension2': 'ODS_16',
-    'dimension3': pageOperationCode,
-    'dimension4': pageDocumentType,
-    'dimension5': pageFormat
+    'dimension3': '099901',
+    'dimension4': 'INDICADOR',
+    'dimension5': 'ASP'
   });
 </script><!-- Google Tag Manager -->
 <script >
@@ -1232,7 +1221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Bilatu';</script>
 
-<script src='/assets/js/sdg.js?v=20250714091435'></script>
+<script src='/assets/js/sdg.js?v=20250714112919'></script>
 
 
 <script>
@@ -1252,7 +1241,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     
-    <script src="/assets/js/custom.js?v=20250714091435"></script><script>
+    <script src="/assets/js/custom.js?v=20250714112919"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
