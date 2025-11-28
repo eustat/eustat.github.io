@@ -158,6 +158,14 @@
           "status": "notstarted"
         },
         {
+          "id": "2-2-4",
+          "title": "Elikadura-aniztasunaren gutxieneko atalasearen prebalentzia, biztanleria-taldearen arabera (6-23,9 hilabeteko haurrak eta haurdun ez dauden 15 eta 49 urte bitarteko emakumeak)",
+          "description": "",
+          "keywords": "",
+          "href": "/2-2-4/",
+          "status": "notstarted"
+        },
+        {
           "id": "2-2-E1",
           "title": "Helduen obesitate-tasa, gorputz-masaren indizearen arabera (GMI) (EBren sdg_02_10 adierazlea)",
           "description": "",
@@ -471,7 +479,7 @@
         },
         {
           "id": "3-b-3",
-          "title": "Modu jasangarrian eskura daitezkeen funtsezko sendagaien oinarrizko multzoa duten osasun-zentroen proportzioa",
+          "title": "Osasun-produktuetarako irismen-indizea",
           "description": "",
           "keywords": "",
           "href": "/3-b-3/",
@@ -998,6 +1006,14 @@
           "status": "complete"
         },
         {
+          "id": "8-9-2",
+          "title": "Turismoaren sektoreko langileak",
+          "description": "",
+          "keywords": "",
+          "href": "/8-9-2/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-10-1",
           "title": "a) Merkataritza-bankuen sukurtsalen kopurua 100.000 heldu bakoitzeko, eta b) kutxazain automatikoen kopurua 100.000 heldu bakoitzeko",
           "description": "",
@@ -1388,6 +1404,14 @@
           "keywords": "",
           "href": "/11-b-2/",
           "status": "complete"
+        },
+        {
+          "id": "11-c-1",
+          "title": "Hiri-azpiegituretarako edo hiri-azpiegituren proiektuetara bideratutako garapenerako laguntza ofiziala eta bestelako fluxu ofizialak, guztira, sektorearen arabera",
+          "description": "",
+          "keywords": "",
+          "href": "/11-c-1/",
+          "status": "notstarted"
         }]
     }
   },
@@ -1423,11 +1447,11 @@
         },
         {
           "id": "12-3-1",
-          "title": "a) Elikagaien galeren indizea eta b) elikagaiak alferrik galtzearen indizea",
+          "title": "a) Elikagaien galeren indizea eta b) elikagaien xahuketa indizea",
           "description": "",
           "keywords": "",
           "href": "/12-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-4-1",
